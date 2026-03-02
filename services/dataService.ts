@@ -2,6 +2,7 @@
 import { Asset, Candle, Timeframe, CorrelationData, MarketBreadthSummary, BreadthCompanyDetails, DOW_30_TICKERS, HK_50_TICKERS, VolumePressure, GapData, EconomicEvent } from '../types';
 
 const PROXIES = [
+  'http://localhost:4000/api/tradingview?url=',
   'https://api.allorigins.win/get?url=',
   'https://corsproxy.io/?',
   'https://thingproxy.freeboard.io/fetch/',
